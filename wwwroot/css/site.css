@@ -1,18 +1,141 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 0;
+}
+
+a.navbar-brand {  
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+.slogan{
+  color: rgb(255, 0, 0);
+  border-color: #1861ac;
+  text-align: center;
+  font-family: monospace;
+}
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
 html {
   font-size: 14px;
 }
-
 @media (min-width: 768px) {
   html {
     font-size: 16px;
   }
 }
 
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
 html {
   position: relative;
   min-height: 100%;
 }
 
-body {
-  margin-bottom: 60px;
+
+.footer {
+  width: 100%;
+  white-space: nowrap;
+ 
 }
+
+/* diseño propio*/
+nav ul
+{
+	
+	width:20%;
+    height:20%;
+	list-style-type:none;
+	float:right;
+    display:inline-flex;
+	background-color: rgb(160, 156, 156);  
+    
+}
+
+header{
+  height:12%;
+  background-color: rgb(160, 156, 156);
+font-family: monospace;
+display: flex!important;
+justify-content: space-around;
+}
+
+.logo
+{display:block;width:10%;}
+
+
+nav ul
+{
+
+width:20%;
+  height:20%;
+list-style-type:none;
+float:right;
+  display:inline-flex;
+background-color: rgb(160, 156, 156);  
+  
+}
+
+a{
+text-decoration:none;
+color:white;
+padding:30px;
+  float:right;
+}
+
+.imagen_pista {
+ width: 700px; 
+ height:auto;
+ max-width:100%;
+}
+.collage{
+ width: 100px; 
+ height:auto;
+ max-width:20%;
+} 
+
+.letra1{
+  font-family: monospace ;
+}
+.letra3{
+  font-family: monospace ;
+  color:rgb(255, 10, 10);
+}
+
+.nav-link:hover{background-color:white}
